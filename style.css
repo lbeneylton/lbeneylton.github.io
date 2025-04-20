@@ -1,11 +1,20 @@
 *{
     color: #5d1c85;
 }
+img{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding: 0px;
+    
+}
 
 h1{
   
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
+    text-shadow: #441561 0px 2px;
+    
     
 }
 
@@ -59,11 +68,22 @@ a:hover{
     color: #ff4081;
 }
 
-main{
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+}
 
+main{
+    font-size: 25px;
     text-align: justify;  
-    width: 90%;
-    padding: 8px 15px;
-    margin: 0px 10px;
+    width: 60%;
+    height: 80em;
+    margin: 0px auto;
+
+    padding: 8px 100px;
+
     background-color: #ffc0d5;
+    box-shadow: #8d6a76 0px 0px 20px 0px;
 }
